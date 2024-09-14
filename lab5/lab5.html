@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Overview: Your Name, Perfect Blue, Grave of the Fireflies</title>
+    <link rel="icon" type="image/jpeg" href="anime-icon.jpg">
+    <link rel="stylesheet" href="anime.css">
+    <style>
+        body {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.element {
+    width: 30%;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.element:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-size: 24px;
+    color: #ff6b6b;
+    background: #ffe9e3;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+ol, ul {
+    margin-left: 20px;
+    font-size: 18px;
+    color: #444;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #fff;
+}
+
+th {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+td {
+    background-color: #f5f7fa;
+}
+
+.element::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle, rgba(255,255,255,0.7), transparent);
+    z-index: 0;
+}
+
+.element::after {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle, rgba(255,255,255,0.7), transparent);
+    z-index: 0;
+}
+
+.element p, .element h2 {
+    position: relative;
+    z-index: 1;
+}
+
+.third h2 {
+    background-color: #ffdde1;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+    </style>
+</head>
+<body>
+    <main class="main">
+        <!-- Section about "Your Name" -->
+        <div class="element first">
+            <h2>About "Your Name"</h2>
+            <p>
+                *Your Name* (Kimi no Na wa) is a 2016 Japanese animated romantic fantasy film directed by Makoto Shinkai. 
+                The story revolves around two teenagers, Taki and Mitsuha, who mysteriously swap bodies and must navigate 
+                each other's lives while unraveling a cosmic connection between them.
+            </p>
+            <h2>Themes of "Your Name"</h2>
+            <p>
+                The film explores themes of time, love, and the interplay between fate and coincidence, all beautifully
+                intertwined with stunning visuals and an emotional soundtrack by RADWIMPS.
+            </p>
+            <h2>The Impact</h2>
+            <p>
+                *Your Name* became a worldwide phenomenon, becoming the highest-grossing anime film of its time, and 
+                receiving widespread acclaim for its animation, narrative, and emotional depth.
+            </p>
+        </div>
+
+        <!-- Section about "Perfect Blue" -->
+        <div class="element second">
+            <h2>About "Perfect Blue"</h2>
+            <p>
+                *Perfect Blue* is a 1997 psychological thriller directed by Satoshi Kon. The film follows Mima, a pop idol 
+                who transitions into an acting career, only to be haunted by a mysterious stalker and her own psychological unraveling.
+            </p>
+            <h2>Themes of "Perfect Blue"</h2>
+            <p>
+                The film explores themes of identity, the pressures of fame, and the blurred line between reality and fantasy, 
+                making it a powerful commentary on celebrity culture and mental health.
+            </p>
+            <h2>Film Techniques</h2>
+            <p>
+                *Perfect Blue* is known for its unique animation style and narrative techniques, such as the use of reality-bending sequences
+                and unreliable narration, influencing many films and directors globally, including Darren Aronofsky.
+            </p>
+        </div>
+
+        <!-- Section about "Grave of the Fireflies" -->
+        <div class="element third">
+            <h2>About "Grave of the Fireflies"</h2>
+            <p>
+                *Grave of the Fireflies* is a 1988 Studio Ghibli film directed by Isao Takahata. The film tells the heartbreaking story of two siblings, Seita and Setsuko, 
+                struggling to survive in Japan during World War II.
+            </p>
+            <h2>Themes of "Grave of the Fireflies"</h2>
+            <p>
+                The film is a poignant anti-war narrative, showing the devastating effects of war on civilians, particularly children. 
+                It highlights themes of loss, survival, and the bonds of family in the face of overwhelming tragedy.
+            </p>
+            <h2>The Cultural Impact</h2>
+            <p>
+                *Grave of the Fireflies* is considered one of the greatest war films ever made, praised for its emotional power, 
+                beautiful animation, and its unflinching depiction of war's impact on the innocent.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
